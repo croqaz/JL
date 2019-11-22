@@ -1,5 +1,6 @@
 # Dev lint code
 flake8
+pycodestyle
 # Dev test code
 pytest-cov
 # Dev coverage
