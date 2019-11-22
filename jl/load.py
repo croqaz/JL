@@ -9,15 +9,20 @@ except Exception:
     pass
 
 
-def load(file_name):
-    for line in open(file_name):
+def load(file_obj):
+    if hasattr(file_obj, 'name'):
+        file_name = file_obj.name
+    else:
+        file_name = repr(file_obj)
+
+    for line in file_obj:
         line = line.strip()
 
         # Ignore empty lines
         if not line:
             continue
 
-        # Ignore lines starting with comments
+        # Ignore commented lines
         if line[0] == '#':
             continue
 
