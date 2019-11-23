@@ -1,10 +1,10 @@
-# JL - JSON lines
-
-Python library for parsing JSON lines files.
+# <font color=purple>JL</font> - JSON lines
 
   [![Pypi Version][pypi-image]][pypi-url]
   [![Build Status][build-image]][build-url]
   [![Python ver][python-image]][python-url]
+
+Python library for parsing JSON lines files.
 
 
 ## Usage
@@ -36,7 +36,7 @@ $ pip install jl
 
 [pypi-image]: https://img.shields.io/pypi/v/jl.svg
 [pypi-url]: https://pypi.org/project/jl/
-[build-image]: https://github.com/croqaz/dot/workflows/Python/badge.svg
-[build-url]: https://github.com/croqaz/dot/actions
+[build-image]: https://github.com/croqaz/JL/workflows/Python/badge.svg
+[build-url]: https://github.com/croqaz/JL/actions
 [python-image]: https://img.shields.io/badge/Python-3.6-blue.svg
 [python-url]: https://python.org
