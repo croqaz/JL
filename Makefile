@@ -16,7 +16,6 @@ update:
 	${ENV}pip install -U -r requirements-dev.txt
 
 lint:
-	${ENV}pycodestyle --count --statistics
 	${ENV}flake8 --count --statistics
 
 coverage:

@@ -1,4 +1,4 @@
-# <font color=purple>JL</font> - JSON lines
+# JL - JSON lines
 
   [![Pypi Version][pypi-image]][pypi-url]
   [![Build Status][build-image]][build-url]
